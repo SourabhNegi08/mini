@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   root: path.resolve(import.meta.dirname, "client"),
-  base: "/bondup/", // Replace 'bondup' with your actual GitHub repository name
+  base: "/mini/", // Replace 'bondup' with your actual GitHub repository name
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
