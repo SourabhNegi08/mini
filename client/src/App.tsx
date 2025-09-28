@@ -43,7 +43,7 @@ export default function App() {
       <TooltipProvider>
         <div className="min-h-screen bg-background">
           <Header 
-            userName="Sarah Chen"
+            userName="Ananya Gupta"
             onCreateEvent={handleCreateEvent}
             onSearchClick={handleSearch}
             onNotificationsClick={handleNotifications}

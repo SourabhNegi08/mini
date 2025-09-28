@@ -9,15 +9,15 @@ export default function EventCardExample() {
         description="Join us for casual coffee and conversation. Perfect for meeting new people in a relaxed setting. We'll be at the corner table by the window!"
         date="Tomorrow"
         time="9:00 AM"
-        location="Blue Bottle Coffee, Capitol Hill"
+        location="Cafe Coffee Day, Connaught Place"
         category="Networking"
         attendeeCount={8}
         maxAttendees={12}
         organizer={{
-          name: "Alex Thompson",
+          name: "Arjun Sharma",
           avatar: undefined
         }}
-        distance="1.2 miles"
+        distance="1.8 km"
         isJoined={false}
         isFavorited={true}
       />
