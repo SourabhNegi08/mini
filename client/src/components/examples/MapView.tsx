@@ -5,7 +5,7 @@ export default function MapViewExample() {
     {
       id: "1",
       title: "Coffee Meetup",
-      location: "Downtown Cafe",
+      location: "CP Cafe",
       attendeeCount: 8,
       category: "Social",
       x: 30,
@@ -14,7 +14,7 @@ export default function MapViewExample() {
     {
       id: "2", 
       title: "Hiking Group",
-      location: "Discovery Park",
+      location: "Delhi Ridge",
       attendeeCount: 12,
       category: "Outdoor",
       x: 70,
@@ -23,7 +23,7 @@ export default function MapViewExample() {
     {
       id: "3",
       title: "Book Club",
-      location: "Library",
+      location: "Lodhi Gardens",
       attendeeCount: 6,
       category: "Learning",
       x: 45,
@@ -32,9 +32,9 @@ export default function MapViewExample() {
   ]
   
   const mockUsers = [
-    { id: "1", name: "Sarah", x: 35, y: 35 },
-    { id: "2", name: "Mike", x: 65, y: 60 },
-    { id: "3", name: "Alex", x: 20, y: 75 }
+    { id: "1", name: "Ananya", x: 35, y: 35 },
+    { id: "2", name: "Rohit", x: 65, y: 60 },
+    { id: "3", name: "Meera", x: 20, y: 75 }
   ]
 
   return (

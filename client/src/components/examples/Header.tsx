@@ -4,7 +4,7 @@ export default function HeaderExample() {
   return (
     <div className="w-full">
       <Header
-        userName="Sarah Chen"
+        userName="Ananya Gupta"
         userAvatar={undefined}
       />
     </div>

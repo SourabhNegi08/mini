@@ -22,11 +22,11 @@ export default function Home() {
       description: "Join us for casual coffee and conversation. Perfect for meeting new people in a relaxed setting.",
       date: "Tomorrow",
       time: "9:00 AM",
-      location: "Blue Bottle Coffee, Capitol Hill",
+      location: "Cafe Coffee Day, Connaught Place",
       category: "Networking",
       attendeeCount: 8,
       maxAttendees: 12,
-      organizer: { name: "Alex Thompson" },
+      organizer: { name: "Arjun Sharma" },
       distance: "1.2 miles",
       isJoined: false,
       isFavorited: true
@@ -37,12 +37,12 @@ export default function Home() {
       description: "Explore the beautiful trails around Mount Rainier. All skill levels welcome!",
       date: "Saturday",
       time: "8:00 AM",
-      location: "Mount Rainier National Park",
+      location: "Aravalli Hills, Gurgaon",
       category: "Outdoor",
       attendeeCount: 15,
       maxAttendees: 20,
-      organizer: { name: "Jamie Park" },
-      distance: "45 miles",
+      organizer: { name: "Priya Singh" },
+      distance: "35 km",
       isJoined: true,
       isFavorited: false
     },
@@ -52,12 +52,12 @@ export default function Home() {
       description: "This month we're discussing 'The Seven Husbands of Evelyn Hugo'. New members welcome!",
       date: "Next Tuesday",
       time: "7:00 PM",
-      location: "Central Library, Meeting Room B",
+      location: "Delhi Public Library, CP",
       category: "Learning",
       attendeeCount: 6,
       maxAttendees: 10,
-      organizer: { name: "Maria Santos" },
-      distance: "3.1 miles",
+      organizer: { name: "Kavya Patel" },
+      distance: "5.2 km",
       isJoined: false,
       isFavorited: false
     }
@@ -66,46 +66,46 @@ export default function Home() {
   const mockUsers = [
     {
       id: "1",
-      name: "Sarah Chen",
+      name: "Ananya Gupta",
       bio: "Love hiking, coffee shops, and exploring new neighborhoods. Always up for spontaneous adventures!",
-      location: "Downtown Seattle",
+      location: "Central Delhi",
       interests: ["Hiking", "Coffee", "Photography", "Travel", "Books"],
-      distance: "2.3 miles",
+      distance: "3.5 km",
       mutualFriends: 3,
       isOnline: true
     },
     {
       id: "2",
-      name: "Mike Rodriguez",
+      name: "Rohit Kumar",
       bio: "Software engineer by day, rock climber by weekend. Looking for climbing partners and tech meetups.",
-      location: "Fremont",
+      location: "Gurgaon",
       interests: ["Rock Climbing", "Tech", "Board Games", "Craft Beer"],
-      distance: "4.7 miles",
+      distance: "7.5 km",
       mutualFriends: 1,
       isOnline: false
     },
     {
       id: "3",
-      name: "Emily Watson",
+      name: "Meera Joshi",
       bio: "Foodie and cooking enthusiast. Love trying new restaurants and hosting dinner parties.",
-      location: "Capitol Hill",
+      location: "Khan Market",
       interests: ["Cooking", "Food", "Wine", "Travel", "Art"],
-      distance: "1.8 miles",
+      distance: "2.8 km",
       mutualFriends: 5,
       isOnline: true
     }
   ]
   
   const mapEvents = [
-    { id: "1", title: "Coffee Meetup", location: "Downtown Cafe", attendeeCount: 8, category: "Social", x: 30, y: 40 },
-    { id: "2", title: "Hiking Group", location: "Discovery Park", attendeeCount: 12, category: "Outdoor", x: 70, y: 25 },
-    { id: "3", title: "Book Club", location: "Library", attendeeCount: 6, category: "Learning", x: 45, y: 70 }
+    { id: "1", title: "Coffee Meetup", location: "CP Cafe", attendeeCount: 8, category: "Social", x: 30, y: 40 },
+    { id: "2", title: "Hiking Group", location: "Delhi Ridge", attendeeCount: 12, category: "Outdoor", x: 70, y: 25 },
+    { id: "3", title: "Book Club", location: "Lodhi Gardens", attendeeCount: 6, category: "Learning", x: 45, y: 70 }
   ]
   
   const mapUsers = [
-    { id: "1", name: "Sarah", x: 35, y: 35 },
-    { id: "2", name: "Mike", x: 65, y: 60 },
-    { id: "3", name: "Emily", x: 20, y: 75 }
+    { id: "1", name: "Ananya", x: 35, y: 35 },
+    { id: "2", name: "Rohit", x: 65, y: 60 },
+    { id: "3", name: "Meera", x: 20, y: 75 }
   ]
   
   const handleCreateEvent = () => {
