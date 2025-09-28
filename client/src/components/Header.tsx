@@ -64,7 +64,7 @@ export default function Header({
           </Button>
           
           <h1 className="font-heading font-bold text-xl text-primary">
-            Connect
+            BONDUP
           </h1>
         </div>
         
